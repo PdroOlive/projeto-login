@@ -39,7 +39,6 @@ main
 {
     max-width: 900px;
     height: 200px;
-    margin: auto;
 }
 #container-img > img
 {
@@ -50,11 +49,9 @@ main
 
 #conteudo-login
 {
-    padding: 15px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: auto;
 }
 
 #conteudo-login > h1
@@ -63,6 +60,7 @@ main
     font-size: 2em;
     font-weight: 900;
     letter-spacing: 2px;
+    text-align: center;
 }
 
 #texto
@@ -172,5 +170,5 @@ main
 #img-senha > img
 {
     position: absolute;
-    transform: translate(-430%, -60%);
+    transform: translate(-300%, -60%);
 }
